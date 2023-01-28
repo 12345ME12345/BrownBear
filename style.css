@@ -1,0 +1,128 @@
+body{
+    background-color: mediumpurple;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Navy{
+    background-color: gold;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+a{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: deepskyblue;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+a:hover{
+    background-color: darkblue;
+    font-size: 38px;
+}
+.banner{
+    background-color: gold;
+    height: 400px;
+    background-image: url('./download\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 3s;
+}
+.banner h1{
+    color: deepskyblue;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+.banner h1:hover{
+    color: midnightblue;
+    font-size: 60px;
+}
+.About{
+    border: 2px double darkblue;
+    margin: 15px;
+    padding: 15px;
+}
+.About h2{
+    text-align: center;
+    color: darkblue;
+}
+.About hr{
+    border: 2px dashed whitesmoke;
+}
+.Aboutt{
+    border: 2px double darkgreen;
+    margin: 15px;
+    padding: 15px;
+}
+.Aboutt h2{
+    text-align: center;
+    color: darkblue;
+}
+.Aboutt hr{
+    border:2px dashed darkgreen;
+}
+.Video{
+    border: 2px double darkred;
+    margin: 15px;
+    padding: 15px;
+}
+.Video h2{
+    text-align: center;
+    color: midnightblue;
+}
+.footer{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: green;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-me{
+    border: 2px dashed white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.about-me img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: 4s;
+    box-shadow: 15px 15px 5px midnightblue;
+}
+.about-me img:hover{
+    width: 600px;
+    height: 600px;
+    color: midnightblue;
+}
+.aboutmore{
+    border: dashed white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+.aboutmore h2{
+    text-align: center;
+    color: darkblue;
+}
+.aboutmore img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: 4s;
+    box-shadow: 15px 15px 5px midnightblue;
+    margin: 55px;
+}
+.aboutmore img:hover{
+    width:400px;
+    height: 400px;
+
+}
